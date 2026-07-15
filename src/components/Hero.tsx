@@ -70,7 +70,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.5 }}
-          className="text-5xl md:text-7xl font-bold text-cream mb-4"
+          className="text-5xl md:text-7xl font-bold text-[#F8F4EE] mb-4"
         >
           Udit Sharma
         </motion.h1>
@@ -93,7 +93,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 1.1 }}
-          className="text-cream/70 max-w-2xl text-lg mt-6 text-center leading-relaxed"
+          className="text-[#F8F4EEb3] max-w-2xl text-lg mt-6 text-center leading-relaxed"
         >
           I&apos;m Udit Sharma, a passionate Performance Marketing Specialist based in
           Delhi, India. I specialize in creating data-driven digital marketing
@@ -133,7 +133,7 @@ export default function Hero() {
             href="https://www.linkedin.com/in/udit-sharma-2217693a9"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-cream/60 hover:text-copper transition-colors duration-300"
+            className="text-[#F8F4EE99] hover:text-copper transition-colors duration-300"
             aria-label="LinkedIn"
           >
             <svg
@@ -150,7 +150,7 @@ export default function Hero() {
           {/* Email */}
           <a
             href="mailto:udit32329@gmail.com"
-            className="text-cream/60 hover:text-copper transition-colors duration-300"
+            className="text-[#F8F4EE99] hover:text-copper transition-colors duration-300"
             aria-label="Email"
           >
             <svg
@@ -183,7 +183,7 @@ export default function Hero() {
           strokeWidth="2"
           strokeLinecap="round"
           strokeLinejoin="round"
-          className="text-cream/40"
+          className="text-[#F8F4EE66]"
         >
           <path d="m6 9 6 6 6-6" />
         </svg>

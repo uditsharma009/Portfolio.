@@ -21,7 +21,7 @@ const TIMELINE_DATA: TimelineEntry[] = [
   {
     year: '2025–2028',
     title: 'B.Sc. Physics (Hons.)',
-    institution: 'Nalanda University',
+    institution: 'Patliputra University',
     description:
       'Pursuing a Bachelor of Science in Physics with Honours, developing strong analytical and problem-solving skills. The rigorous scientific curriculum builds a solid foundation in data analysis, critical thinking, and quantitative reasoning applicable to marketing analytics.',
   },
@@ -55,7 +55,7 @@ export default function Education() {
           transition={{ duration: 0.6 }}
           className="text-center mb-20"
         >
-          <h2 className="section-heading text-cream">Education</h2>
+          <h2 className="section-heading text-dark-heading">Education</h2>
           <div className="section-divider" />
         </motion.div>
 
@@ -108,7 +108,7 @@ export default function Education() {
                       </span>
 
                       {/* Title */}
-                      <h3 className="text-xl font-bold text-cream mb-1">
+                      <h3 className="text-xl font-bold text-dark-heading mb-1">
                         {entry.title}
                       </h3>
 
@@ -132,7 +132,7 @@ export default function Education() {
                       </p>
 
                       {/* Description */}
-                      <p className="text-cream/60 text-sm leading-relaxed">
+                      <p className="text-muted text-sm leading-relaxed">
                         {entry.description}
                       </p>
                     </motion.div>

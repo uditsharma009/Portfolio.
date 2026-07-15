@@ -151,7 +151,7 @@ function AnimatedCounter({ item, index }: { item: CounterItem; index: number }) 
       <span ref={ref} className="text-4xl font-bold text-gradient block mb-2">
         0{item.suffix}
       </span>
-      <span className="text-cream/60 text-sm font-medium">{item.label}</span>
+      <span className="text-muted text-sm font-medium">{item.label}</span>
     </motion.div>
   );
 }
@@ -175,10 +175,10 @@ function AchievementCard({
       <div className="w-14 h-14 rounded-xl bg-copper/10 flex items-center justify-center mb-4">
         {achievement.icon}
       </div>
-      <h3 className="text-lg font-semibold text-cream mb-2">
+      <h3 className="text-lg font-semibold text-dark-heading mb-2">
         {achievement.title}
       </h3>
-      <p className="text-cream/60 text-sm leading-relaxed">
+      <p className="text-coffee text-sm leading-relaxed">
         {achievement.description}
       </p>
     </motion.div>
@@ -188,7 +188,7 @@ function AchievementCard({
 /* ─── Main Section ─── */
 export default function Achievements() {
   return (
-    <section id="achievements" className="py-24 px-6 bg-[#2A221A] relative">
+    <section id="achievements" className="py-24 px-6 bg-white relative">
       {/* Decorative glow */}
       <div className="absolute bottom-0 right-0 w-[500px] h-[400px] bg-gold/5 rounded-full blur-[150px] pointer-events-none" />
 
@@ -204,7 +204,7 @@ export default function Achievements() {
           Achievements &amp; Recognition
         </h2>
         <div className="section-divider" />
-        <p className="text-cream/60 max-w-2xl mx-auto mt-4">
+        <p className="text-muted max-w-2xl mx-auto mt-4">
           Milestones and accolades earned through dedication, continuous
           learning, and hands-on marketing execution.
         </p>

@@ -21,7 +21,7 @@ const projects: Project[] = [
       'Executed a live Meta Ads campaign for Unleavables, optimizing ad creatives, targeting, and budget allocation to maximize conversions and ROI.',
     metrics: ['Optimized CTR', 'Improved Conversions', 'Budget Efficiency'],
     tools: ['Meta Ads Manager', 'Canva', 'GA4'],
-    link: '/achievements/M45_ET_Meta_live project unleavables_A4 (2)-compressed.pdf',
+    link: 'https://drive.google.com/file/d/1fCncLHxdsF-yLf9GbB_Qq4ksw4jdi8BC/view?usp=sharing',
   },
   {
     title: 'Google Ads Search Campaign',
@@ -30,7 +30,7 @@ const projects: Project[] = [
       'Designed and managed a Google Search Ads campaign with keyword research, ad copy testing, and quality score optimization for peak performance.',
     metrics: ['Keyword Optimization', 'Quality Score', 'Cost Efficiency'],
     tools: ['Google Ads', 'GA4', 'GSC'],
-    link: '/achievements/Google Search ads Live Campaign project M45ET Team A4 (1)-compressed.pdf',
+    link: 'https://drive.google.com/file/d/1HEDbwMxNJ5qEWUw1i-IEAeC8YmZlr3ZE/view?usp=sharing',
   },
   {
     title: 'Amazon Ads — Homecrust',
@@ -39,7 +39,7 @@ const projects: Project[] = [
       'Managed Amazon Sponsored Ads for Homecrust, focusing on ACOS optimization, product visibility, and sales growth through strategic bidding.',
     metrics: ['ACOS Optimization', 'Sales Growth', 'Visibility Boost'],
     tools: ['Amazon Ads', 'Helium 10', 'Excel'],
-    link: '/achievements/ECOM LIVE PROJECT M45 ET TEAM A4-compressed.pdf',
+    link: 'https://drive.google.com/file/d/1OtZXobmfXYj1ncDY3dpjFHtEZJ4wVNoZ/view?usp=sharing',
   },
   {
     title: 'SEO Project — Unleavables',
@@ -48,7 +48,7 @@ const projects: Project[] = [
       'Conducted a comprehensive SEO audit and optimization for Unleavables, improving technical health, content strategy, and organic rankings.',
     metrics: ['Ranking Improvement', 'Technical Score', 'Content Optimization'],
     tools: ['Semrush', 'Screaming Frog', 'GSC', 'GA4'],
-    link: '/achievements/Seo Live Project M45ET Team A4-compressed.pdf',
+    link: 'https://drive.google.com/file/d/1G6oCbzdgs6xmJwQz02dpuUHs8jAUQuKG/view?usp=sharing',
   },
   {
     title: 'DV360 Programmatic Strategy',
@@ -66,7 +66,7 @@ const projects: Project[] = [
       'Created and executed organic content marketing strategies to boost brand awareness, engagement rates, and content reach across platforms.',
     metrics: ['Engagement Rate', 'Content Reach', 'Brand Awareness'],
     tools: ['WordPress', 'Canva', 'GA4'],
-    link: '/achievements/Content Proof of Work Udit-3MB.pdf',
+    link: 'https://drive.google.com/file/d/1ylQmo9yj3ZbVQtZJxtcKdzc4e29oxbHV/view?usp=sharing',
   },
   {
     title: 'Snitch Content Marketing Blog',
@@ -75,7 +75,7 @@ const projects: Project[] = [
       'Wrote and optimized blog content for Snitch, driving organic traffic, improving read time, and increasing social media shares.',
     metrics: ['Blog Traffic', 'Read Time', 'Social Shares'],
     tools: ['WordPress', 'Canva', 'SEMrush', 'ChatGPT'],
-    link: '/achievements/coffee-blog (1).html',
+    link: 'https://uditsharma09.substack.com/p/inside-snitchs-marketing-strategy',
   },
 ];
 
@@ -128,13 +128,13 @@ function ProjectCard({ project, index }: { project: Project; index: number }) {
           className="object-cover transition-transform duration-500 group-hover:scale-110"
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-dark-bg/80 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-t from-[#2A1F14]/60 to-transparent" />
       </div>
 
       {/* Body */}
       <div className="p-6">
-        <h3 className="text-xl font-bold text-cream mb-2">{project.title}</h3>
-        <p className="text-cream/70 text-sm mb-4 line-clamp-2">
+        <h3 className="text-xl font-bold text-dark-heading mb-2">{project.title}</h3>
+        <p className="text-coffee text-sm mb-4 line-clamp-2">
           {project.description}
         </p>
 
@@ -155,7 +155,7 @@ function ProjectCard({ project, index }: { project: Project; index: number }) {
           {project.tools.map((tool) => (
             <span
               key={tool}
-              className="border border-copper/30 text-cream/60 rounded-full px-3 py-1 text-xs"
+              className="border border-copper/30 text-muted rounded-full px-3 py-1 text-xs"
             >
               {tool}
             </span>
@@ -186,7 +186,7 @@ function ProjectCard({ project, index }: { project: Project; index: number }) {
             </svg>
           </a>
         ) : (
-          <span className="inline-flex items-center gap-2 text-cream/30 text-sm font-semibold cursor-not-allowed">
+          <span className="inline-flex items-center gap-2 text-muted/50 text-sm font-semibold cursor-not-allowed">
             Coming Soon
           </span>
         )}
@@ -208,7 +208,7 @@ export default function Projects() {
       >
         <h2 className="section-heading text-gradient">Projects</h2>
         <div className="section-divider" />
-        <p className="text-cream/60 max-w-2xl mx-auto mt-4">
+        <p className="text-muted max-w-2xl mx-auto mt-4">
           Real-world campaigns and projects showcasing hands-on experience in
           performance marketing, SEO, and content strategy.
         </p>

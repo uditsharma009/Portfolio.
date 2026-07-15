@@ -42,7 +42,7 @@ export default function About() {
       >
         {/* Heading */}
         <motion.div variants={itemVariants} className="text-center mb-16">
-          <h2 className="section-heading text-cream">About Me</h2>
+          <h2 className="section-heading text-dark-heading">About Me</h2>
           <div className="section-divider" />
         </motion.div>
 
@@ -68,7 +68,7 @@ export default function About() {
 
           {/* Summary Text */}
           <motion.div variants={itemVariants}>
-            <p className="text-cream/80 text-lg leading-relaxed">
+            <p className="text-coffee text-lg leading-relaxed">
               I am a driven and ambitious fresher with a deep passion for
               Performance Marketing, currently honing my skills through the
               Kraftshala Marketing Launchpad Program. My expertise spans across
@@ -114,9 +114,9 @@ export default function About() {
                   <circle cx="12" cy="12" r="2" />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold text-cream">Mission</h3>
+              <h3 className="text-xl font-bold text-dark-heading">Mission</h3>
             </div>
-            <p className="text-cream/70 leading-relaxed">
+            <p className="text-muted leading-relaxed">
               To leverage data-driven insights and cutting-edge marketing tools to
               create high-impact campaigns that deliver measurable business results
               and exceptional ROI.
@@ -146,9 +146,9 @@ export default function About() {
                   <circle cx="12" cy="12" r="3" />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold text-cream">Vision</h3>
+              <h3 className="text-xl font-bold text-dark-heading">Vision</h3>
             </div>
-            <p className="text-cream/70 leading-relaxed">
+            <p className="text-muted leading-relaxed">
               To become a leading performance marketing professional who bridges
               the gap between creative strategy and analytical excellence in the
               digital marketing landscape.

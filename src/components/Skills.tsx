@@ -58,7 +58,7 @@ function SkillBar({ skill, delay }: { skill: Skill; delay: number }) {
   return (
     <div ref={ref} className="mb-5 last:mb-0">
       <div className="flex justify-between items-center mb-2">
-        <span className="text-cream/90 text-sm font-medium">{skill.name}</span>
+        <span className="text-coffee text-sm font-medium">{skill.name}</span>
         <motion.span
           className="text-copper text-sm font-semibold"
           initial={{ opacity: 0 }}
@@ -116,7 +116,7 @@ function CategoryCard({
 
 export default function Skills() {
   return (
-    <section id="skills" className="py-24 px-6 bg-[#2A221A] relative">
+    <section id="skills" className="py-24 px-6 bg-white relative">
       {/* Subtle decorative glow */}
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[600px] h-[300px] bg-copper/5 rounded-full blur-[120px] pointer-events-none" />
 
@@ -130,7 +130,7 @@ export default function Skills() {
       >
         <h2 className="section-heading text-gradient">Skills</h2>
         <div className="section-divider" />
-        <p className="text-cream/60 max-w-2xl mx-auto mt-4">
+        <p className="text-muted max-w-2xl mx-auto mt-4">
           Proficiency across marketing platforms, analytics tools, creative
           software, and cutting-edge AI technologies.
         </p>

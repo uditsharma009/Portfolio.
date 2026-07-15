@@ -30,7 +30,7 @@ export default function Experience() {
   return (
     <section
       id="experience"
-      className="py-24 px-6 bg-[#2A221A]"
+      className="py-24 px-6 bg-white"
       ref={sectionRef}
     >
       <motion.div
@@ -46,7 +46,7 @@ export default function Experience() {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <h2 className="section-heading text-cream">Professional Experience</h2>
+          <h2 className="section-heading text-dark-heading">Professional Experience</h2>
           <div className="section-divider" />
         </motion.div>
 
@@ -60,7 +60,7 @@ export default function Experience() {
           {/* Header */}
           <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-4 mb-6">
             <div>
-              <h3 className="text-2xl font-bold text-cream">
+              <h3 className="text-2xl font-bold text-dark-heading">
                 Performance Marketing Trainee
               </h3>
               <p className="text-copper text-lg mt-1">
@@ -73,7 +73,7 @@ export default function Experience() {
           </div>
 
           {/* Details Row */}
-          <div className="flex flex-wrap gap-4 text-cream/60 text-sm mb-8">
+          <div className="flex flex-wrap gap-4 text-muted text-sm mb-8">
             <span className="flex items-center gap-2">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -136,7 +136,7 @@ export default function Experience() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
             {/* Responsibilities */}
             <div>
-              <h4 className="text-lg font-semibold text-cream mb-4 flex items-center gap-2">
+              <h4 className="text-lg font-semibold text-dark-heading mb-4 flex items-center gap-2">
                 <span className="w-2 h-2 rounded-full bg-copper" />
                 Key Responsibilities
               </h4>
@@ -151,7 +151,7 @@ export default function Experience() {
                         : { opacity: 0, x: -15 }
                     }
                     transition={{ duration: 0.4, delay: 0.4 + index * 0.06 }}
-                    className="flex gap-3 text-cream/70 text-sm leading-relaxed"
+                    className="flex gap-3 text-coffee text-sm leading-relaxed"
                   >
                     <span className="mt-2 w-1.5 h-1.5 rounded-full bg-copper shrink-0" />
                     {item}
@@ -162,7 +162,7 @@ export default function Experience() {
 
             {/* Achievements */}
             <div>
-              <h4 className="text-lg font-semibold text-cream mb-4 flex items-center gap-2">
+              <h4 className="text-lg font-semibold text-dark-heading mb-4 flex items-center gap-2">
                 <span className="w-2 h-2 rounded-full bg-gold" />
                 Key Achievements
               </h4>
@@ -177,7 +177,7 @@ export default function Experience() {
                         : { opacity: 0, x: 15 }
                     }
                     transition={{ duration: 0.4, delay: 0.5 + index * 0.08 }}
-                    className="flex gap-3 text-cream/70 text-sm leading-relaxed"
+                    className="flex gap-3 text-coffee text-sm leading-relaxed"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"

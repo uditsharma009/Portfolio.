@@ -15,55 +15,55 @@ const certifications: Certification[] = [
   {
     name: 'Semrush SEO',
     provider: 'Semrush',
-    file: '/certificates/semrush certificate.pdf',
+    file: 'https://drive.google.com/file/d/1Mn5azngFX2yZVmnq0apCmOiuhUZMFNxU/view?usp=sharing',
     hasImage: false,
   },
   {
     name: 'Google Analytics (GA4)',
     provider: 'Google',
-    file: '/certificates/GA4 Certificate.pdf',
+    file: 'https://drive.google.com/file/d/13wojSm8sRqCjFvNlqJBc2RmqNUDHvkk-/view?usp=sharing',
     hasImage: false,
   },
   {
     name: 'Google Ads',
     provider: 'Google / Coursera',
-    file: '/certificates/Coursera Google ads certificates.pdf',
+    file: 'https://drive.google.com/file/d/1UrJsqg58AdMwR6f4HvQyRExUM7xeobip/view?usp=sharing',
     hasImage: false,
   },
   {
     name: 'AI-Powered Shopping Ads',
     provider: 'Google',
-    file: '/certificates/Google AI-Powred Shopping Ads.pdf',
+    file: 'https://drive.google.com/file/d/1jMrwCROGNU3SOw_ZGCGZ9juWhwnBjAex/view?usp=sharing',
     hasImage: false,
   },
   {
     name: 'DV360',
     provider: 'Google',
-    file: '/certificates/Google DV360 Certification.pdf',
+    file: 'https://drive.google.com/file/d/1t5qL_PVxfm74bpaALwPSmEFVpO00Dwy_/view?usp=sharing',
     hasImage: false,
   },
   {
     name: 'Digital Marketing',
     provider: 'HubSpot Academy',
-    file: '/certificates/digital marketing certificate.png',
-    hasImage: true,
+    file: 'https://drive.google.com/file/d/1sXi08oMl-T4T52YGf1ABV2FaOxf-xiYP/view?usp=sharing',
+    hasImage: false,
   },
   {
     name: 'Social Media Marketing',
     provider: 'HubSpot Academy',
-    file: '/certificates/Socail Media Marketing.png',
-    hasImage: true,
+    file: 'https://drive.google.com/file/d/13NAmlL9njke-zb5Xg-Gn3Bs4NIbmpNlB/view?usp=sharing',
+    hasImage: false,
   },
   {
     name: 'AI Tools Workshop',
     provider: 'Workshop',
-    file: '/certificates/Certificate AI tools workshop.pdf',
+    file: 'https://drive.google.com/file/d/1VO0V4Z5j0IB9jxk7wKCAFMrSp_YQa18Y/view?usp=sharing',
     hasImage: false,
   },
   {
     name: 'Excel Using AI',
     provider: 'Workshop',
-    file: '/certificates/Excel Using Ai Workshop.pdf',
+    file: 'https://drive.google.com/file/d/1RWFWjluCvIjLEeQYPl2LauMH3SzFgb7t/view?usp=sharing',
     hasImage: false,
   },
 ];
@@ -110,7 +110,7 @@ function CertCard({
     >
       {/* Preview area */}
       {cert.hasImage ? (
-        <div className="relative h-48 bg-white/5 p-2 flex items-center justify-center">
+        <div className="relative h-48 bg-[#F8F4EE] p-2 flex items-center justify-center">
           <Image
             src={cert.file}
             alt={cert.name}
@@ -120,7 +120,7 @@ function CertCard({
           />
         </div>
       ) : (
-        <div className="relative h-48 flex flex-col items-center justify-center bg-gradient-to-br from-copper/10 via-dark-card to-gold/5">
+        <div className="relative h-48 flex flex-col items-center justify-center bg-gradient-to-br from-[#E0D0B530] via-[#F8F4EE] to-[#FBD3BD20]">
           {/* Certificate Icon SVG */}
           <svg
             className="w-16 h-16 text-copper/60 mb-3"
@@ -135,7 +135,7 @@ function CertCard({
               d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"
             />
           </svg>
-          <span className="text-cream/50 text-sm font-medium text-center px-4">
+          <span className="text-muted text-sm font-medium text-center px-4">
             {cert.name}
           </span>
           <span className="text-copper/40 text-xs mt-1">{cert.provider}</span>
@@ -144,7 +144,7 @@ function CertCard({
 
       {/* Body */}
       <div className="p-6">
-        <h3 className="text-lg font-semibold text-cream mb-1">{cert.name}</h3>
+        <h3 className="text-lg font-semibold text-dark-heading mb-1">{cert.name}</h3>
         <p className="text-copper text-sm mb-4">{cert.provider}</p>
         <a
           href={cert.file}
@@ -185,7 +185,7 @@ export default function Certifications() {
       >
         <h2 className="section-heading text-gradient">Certifications</h2>
         <div className="section-divider" />
-        <p className="text-cream/60 max-w-2xl mx-auto mt-4">
+        <p className="text-muted max-w-2xl mx-auto mt-4">
           Industry-recognized certifications validating expertise in digital
           marketing, analytics, and advertising platforms.
         </p>

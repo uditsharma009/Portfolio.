@@ -112,7 +112,7 @@ function FloatingInput({
   const isActive = focused || hasValue;
 
   const sharedClasses =
-    'bg-transparent border border-[#6E564440] rounded-xl p-4 text-cream focus:border-copper outline-none w-full transition-colors duration-300 peer';
+    'bg-transparent border border-[#6E564440] rounded-xl p-4 text-dark-heading focus:border-copper outline-none w-full transition-colors duration-300 peer';
 
   return (
     <div className="relative mb-5">
@@ -141,9 +141,9 @@ function FloatingInput({
       )}
       <label
         htmlFor={id}
-        className={`absolute left-4 text-cream/50 transition-all duration-300 pointer-events-none ${
+        className={`absolute left-4 text-muted transition-all duration-300 pointer-events-none ${
           isActive
-            ? 'top-0 -translate-y-1/2 text-xs bg-dark-bg px-2 text-copper'
+            ? 'top-0 -translate-y-1/2 text-xs bg-ivory px-2 text-copper'
             : 'top-4 text-base'
         }`}
       >
@@ -169,7 +169,7 @@ export default function Contact() {
       >
         <h2 className="section-heading text-gradient">Get In Touch</h2>
         <div className="section-divider" />
-        <p className="text-cream/60 max-w-2xl mx-auto mt-4">
+        <p className="text-muted max-w-2xl mx-auto mt-4">
           Have a project in mind or want to discuss marketing strategy?
           Let&apos;s connect and explore the possibilities.
         </p>
@@ -244,10 +244,10 @@ export default function Contact() {
                   {info.icon}
                 </div>
                 <div>
-                  <p className="text-cream/40 text-xs uppercase tracking-wider mb-0.5">
+                  <p className="text-muted text-xs uppercase tracking-wider mb-0.5">
                     {info.label}
                   </p>
-                  <p className="text-cream font-medium text-sm group-hover:text-copper transition-colors">
+                  <p className="text-dark-heading font-medium text-sm group-hover:text-copper transition-colors">
                     {info.value}
                   </p>
                 </div>
