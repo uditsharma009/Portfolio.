@@ -30,7 +30,7 @@ export default function Experience() {
   return (
     <section
       id="experience"
-      className="py-24 px-6 bg-white"
+      className="py-24 px-6 bg-navy-light"
       ref={sectionRef}
     >
       <motion.div

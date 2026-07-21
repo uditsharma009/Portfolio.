@@ -128,7 +128,7 @@ function ProjectCard({ project, index }: { project: Project; index: number }) {
           className="object-cover transition-transform duration-500 group-hover:scale-110"
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-[#2A1F14]/60 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-t from-[#0B1224]/60 to-transparent" />
       </div>
 
       {/* Body */}

@@ -110,7 +110,7 @@ function CertCard({
     >
       {/* Preview area */}
       {cert.hasImage ? (
-        <div className="relative h-48 bg-[#F8F4EE] p-2 flex items-center justify-center">
+        <div className="relative h-48 bg-navy p-2 flex items-center justify-center">
           <Image
             src={cert.file}
             alt={cert.name}
@@ -120,7 +120,7 @@ function CertCard({
           />
         </div>
       ) : (
-        <div className="relative h-48 flex flex-col items-center justify-center bg-gradient-to-br from-[#E0D0B530] via-[#F8F4EE] to-[#FBD3BD20]">
+        <div className="relative h-48 flex flex-col items-center justify-center bg-gradient-to-br from-[#3B82F615] via-navy to-[#60A5FA10]">
           {/* Certificate Icon SVG */}
           <svg
             className="w-16 h-16 text-copper/60 mb-3"

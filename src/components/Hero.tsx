@@ -63,7 +63,7 @@ export default function Hero() {
             initial={{ opacity: 0, x: -30 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="inline-flex items-center gap-2 bg-[#B8860B20] border border-[#B8860B40] rounded-full px-4 py-2 mb-6"
+            className="inline-flex items-center gap-2 bg-[#3B82F620] border border-[#3B82F640] rounded-full px-4 py-2 mb-6"
           >
             <span className="w-2 h-2 rounded-full bg-copper animate-pulse" />
             <span className="text-copper text-sm font-semibold tracking-wide">Available for Opportunities</span>
@@ -74,7 +74,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
-            className="text-5xl md:text-7xl font-black text-[#F8F4EE] mb-2 leading-[1.1]"
+            className="text-5xl md:text-7xl font-black text-white mb-2 leading-[1.1]"
           >
             Udit<br />
             <span className="text-gradient">Sharma</span>
@@ -98,7 +98,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 1.0 }}
-            className="text-[#F8F4EEa0] max-w-xl text-base leading-relaxed mb-8"
+            className="text-soft-gray max-w-xl text-base leading-relaxed mb-8"
           >
             Fresher with hands-on experience through live marketing projects,
             campaign simulations, and industry certifications completed during
@@ -116,7 +116,7 @@ export default function Hero() {
             <a href="#projects" className="btn-copper">
               <span>View My Work</span>
             </a>
-            <a href="#contact" className="btn-outline border-[#F8F4EE40] text-[#F8F4EE] hover:bg-[#F8F4EE15] hover:border-[#F8F4EE80]">
+            <a href="#contact" className="btn-outline border-[#ffffff30] text-white hover:bg-[#ffffff10] hover:border-[#ffffff60]">
               <span>Contact Me</span>
             </a>
           </motion.div>
@@ -132,7 +132,7 @@ export default function Hero() {
               href="https://www.linkedin.com/in/udit-sharma-2217693a9"
               target="_blank"
               rel="noopener noreferrer"
-              className="w-10 h-10 rounded-full border border-[#F8F4EE30] flex items-center justify-center text-[#F8F4EE80] hover:text-copper hover:border-copper transition-all duration-300"
+              className="w-10 h-10 rounded-full border border-[#ffffff20] flex items-center justify-center text-[#ffffff80] hover:text-copper hover:border-copper transition-all duration-300"
               aria-label="LinkedIn"
             >
               <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
@@ -141,7 +141,7 @@ export default function Hero() {
             </a>
             <a
               href="mailto:udit32329@gmail.com"
-              className="w-10 h-10 rounded-full border border-[#F8F4EE30] flex items-center justify-center text-[#F8F4EE80] hover:text-copper hover:border-copper transition-all duration-300"
+              className="w-10 h-10 rounded-full border border-[#ffffff20] flex items-center justify-center text-[#ffffff80] hover:text-copper hover:border-copper transition-all duration-300"
               aria-label="Email"
             >
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -160,14 +160,14 @@ export default function Hero() {
           className="hidden lg:flex items-center justify-center relative"
         >
           {/* Decorative ring behind image */}
-          <div className="absolute w-[420px] h-[420px] rounded-full border-2 border-dashed border-[#B8860B25] animate-[spin_30s_linear_infinite]" />
-          <div className="absolute w-[480px] h-[480px] rounded-full border border-[#B8860B10]" />
+          <div className="absolute w-[420px] h-[420px] rounded-full border-2 border-dashed border-[#3B82F625] animate-[spin_30s_linear_infinite]" />
+          <div className="absolute w-[480px] h-[480px] rounded-full border border-[#3B82F610]" />
 
           {/* Glow behind image */}
-          <div className="absolute w-[350px] h-[350px] rounded-full bg-[#B8860B] blur-[120px] opacity-[0.08]" />
+          <div className="absolute w-[350px] h-[350px] rounded-full bg-[#3B82F6] blur-[120px] opacity-[0.1]" />
 
           {/* Image container */}
-          <div className="relative w-[350px] h-[350px] rounded-full overflow-hidden border-4 border-[#B8860B40] shadow-[0_0_60px_rgba(184,134,11,0.2)]">
+          <div className="relative w-[350px] h-[350px] rounded-full overflow-hidden border-4 border-[#3B82F640] shadow-[0_0_60px_rgba(59,130,246,0.25)]">
             <Image
               src="/images/profile.png"
               alt="Udit Sharma"
@@ -177,7 +177,7 @@ export default function Hero() {
               priority
             />
             {/* Subtle gradient overlay at bottom */}
-            <div className="absolute inset-0 bg-gradient-to-t from-[#1A141040] via-transparent to-transparent" />
+            <div className="absolute inset-0 bg-gradient-to-t from-[#0B122440] via-transparent to-transparent" />
           </div>
 
           {/* Floating stat badges */}
@@ -185,20 +185,20 @@ export default function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 1.4 }}
-            className="absolute -bottom-2 left-4 bg-[#1A1410e6] backdrop-blur-md border border-[#B8860B30] rounded-xl px-4 py-3 shadow-lg"
+            className="absolute -bottom-2 left-4 bg-[#0B1224e6] backdrop-blur-md border border-[#3B82F630] rounded-xl px-4 py-3 shadow-lg"
           >
             <p className="text-copper text-2xl font-black">9+</p>
-            <p className="text-[#F8F4EE99] text-xs">Certifications</p>
+            <p className="text-soft-gray text-xs">Certifications</p>
           </motion.div>
 
           <motion.div
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 1.6 }}
-            className="absolute -top-2 right-4 bg-[#1A1410e6] backdrop-blur-md border border-[#B8860B30] rounded-xl px-4 py-3 shadow-lg"
+            className="absolute -top-2 right-4 bg-[#0B1224e6] backdrop-blur-md border border-[#3B82F630] rounded-xl px-4 py-3 shadow-lg"
           >
             <p className="text-copper text-2xl font-black">7+</p>
-            <p className="text-[#F8F4EE99] text-xs">Projects</p>
+            <p className="text-soft-gray text-xs">Projects</p>
           </motion.div>
         </motion.div>
       </div>
@@ -215,7 +215,7 @@ export default function Hero() {
           strokeWidth="2"
           strokeLinecap="round"
           strokeLinejoin="round"
-          className="text-[#F8F4EE66]"
+          className="text-[#ffffff40]"
         >
           <path d="m6 9 6 6 6-6" />
         </svg>

@@ -112,7 +112,7 @@ function FloatingInput({
   const isActive = focused || hasValue;
 
   const sharedClasses =
-    'bg-transparent border border-[#6E564440] rounded-xl p-4 text-dark-heading focus:border-copper outline-none w-full transition-colors duration-300 peer';
+    'bg-transparent border border-[#3B82F620] rounded-xl p-4 text-white focus:border-copper outline-none w-full transition-colors duration-300 peer';
 
   return (
     <div className="relative mb-5">
@@ -143,7 +143,7 @@ function FloatingInput({
         htmlFor={id}
         className={`absolute left-4 text-muted transition-all duration-300 pointer-events-none ${
           isActive
-            ? 'top-0 -translate-y-1/2 text-xs bg-ivory px-2 text-copper'
+            ? 'top-0 -translate-y-1/2 text-xs bg-navy px-2 text-copper'
             : 'top-4 text-base'
         }`}
       >

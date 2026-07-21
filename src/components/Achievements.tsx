@@ -188,7 +188,7 @@ function AchievementCard({
 /* ─── Main Section ─── */
 export default function Achievements() {
   return (
-    <section id="achievements" className="py-24 px-6 bg-white relative">
+    <section id="achievements" className="py-24 px-6 bg-navy-light relative">
       {/* Decorative glow */}
       <div className="absolute bottom-0 right-0 w-[500px] h-[400px] bg-gold/5 rounded-full blur-[150px] pointer-events-none" />
 

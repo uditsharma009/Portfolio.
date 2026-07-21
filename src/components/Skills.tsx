@@ -116,7 +116,7 @@ function CategoryCard({
 
 export default function Skills() {
   return (
-    <section id="skills" className="py-24 px-6 bg-white relative">
+    <section id="skills" className="py-24 px-6 bg-navy-light relative">
       {/* Subtle decorative glow */}
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[600px] h-[300px] bg-copper/5 rounded-full blur-[120px] pointer-events-none" />
 

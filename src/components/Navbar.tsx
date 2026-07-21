@@ -97,7 +97,7 @@ export default function Navbar() {
                   className={`relative px-3 py-2 text-sm font-medium transition-colors duration-200 rounded-lg ${
                     isActive
                       ? 'text-copper'
-                      : 'text-[#F8F4EE] hover:text-copper'
+                      : 'text-white hover:text-copper'
                   }`}
                 >
                   {link.label}
@@ -116,7 +116,7 @@ export default function Navbar() {
           {/* Mobile Hamburger Button */}
           <button
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-            className="lg:hidden relative w-10 h-10 flex items-center justify-center text-[#F8F4EE] focus:outline-none"
+            className="lg:hidden relative w-10 h-10 flex items-center justify-center text-white focus:outline-none"
             aria-label="Toggle menu"
           >
             <div className="w-6 flex flex-col items-end gap-1.5">
@@ -127,7 +127,7 @@ export default function Navbar() {
                     : { rotate: 0, y: 0, width: 24 }
                 }
                 transition={{ duration: 0.3 }}
-                className="block h-0.5 bg-[#F8F4EE] rounded-full origin-center"
+                className="block h-0.5 bg-white rounded-full origin-center"
                 style={{ width: 24 }}
               />
               <motion.span
@@ -137,7 +137,7 @@ export default function Navbar() {
                     : { opacity: 1, x: 0 }
                 }
                 transition={{ duration: 0.2 }}
-                className="block h-0.5 w-5 bg-[#F8F4EE] rounded-full"
+                className="block h-0.5 w-5 bg-white rounded-full"
               />
               <motion.span
                 animate={
@@ -146,7 +146,7 @@ export default function Navbar() {
                     : { rotate: 0, y: 0, width: 18 }
                 }
                 transition={{ duration: 0.3 }}
-                className="block h-0.5 bg-[#F8F4EE] rounded-full origin-center"
+                className="block h-0.5 bg-white rounded-full origin-center"
                 style={{ width: 18 }}
               />
             </div>
@@ -179,7 +179,7 @@ export default function Navbar() {
                     className={`block px-4 py-2.5 rounded-xl text-sm font-medium transition-colors duration-200 ${
                       isActive
                         ? 'text-copper bg-copper/10'
-                        : 'text-[#F8F4EE] hover:text-copper hover:bg-copper/5'
+                        : 'text-white hover:text-copper hover:bg-copper/5'
                     }`}
                   >
                     {link.label}
