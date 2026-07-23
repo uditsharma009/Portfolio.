@@ -97,7 +97,7 @@ export default function Navbar() {
                   className={`relative px-3 py-2 text-sm font-medium transition-colors duration-200 rounded-lg ${
                     isActive
                       ? 'text-copper'
-                      : 'text-white hover:text-copper'
+                      : 'text-[#F8F4EE] hover:text-copper'
                   }`}
                 >
                   {link.label}
@@ -116,7 +116,7 @@ export default function Navbar() {
           {/* Mobile Hamburger Button */}
           <button
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-            className="lg:hidden relative w-10 h-10 flex items-center justify-center text-white focus:outline-none"
+            className="lg:hidden relative w-10 h-10 flex items-center justify-center text-[#F8F4EE] focus:outline-none"
             aria-label="Toggle menu"
           >
             <div className="w-6 flex flex-col items-end gap-1.5">
@@ -179,7 +179,7 @@ export default function Navbar() {
                     className={`block px-4 py-2.5 rounded-xl text-sm font-medium transition-colors duration-200 ${
                       isActive
                         ? 'text-copper bg-copper/10'
-                        : 'text-white hover:text-copper hover:bg-copper/5'
+                        : 'text-[#F8F4EE] hover:text-copper hover:bg-copper/5'
                     }`}
                   >
                     {link.label}
